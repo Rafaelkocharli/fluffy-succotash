@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px;
+  .author {
+    display: flex;
+    align-items: center;
+    .name {
+      font-weight: 500;
+      margin-left: 10px;
+    }
+  }
+  .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
