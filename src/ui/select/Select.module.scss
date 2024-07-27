@@ -1,0 +1,14 @@
+.container {
+  user-select: none;
+  i {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+}
+div.selected {
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,17 @@
+.sidebar {
+  width: 200px;
+  height: 713px;
+  background-color: #efefef;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+.logo {
+  margin-top: auto;
+  margin-bottom: 10px;
+  font: 32px "Playfair Display";
+  line-height: 141.3%;
+  letter-spacing: 1px;
+}

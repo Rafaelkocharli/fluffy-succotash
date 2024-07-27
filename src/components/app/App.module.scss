@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@import url("https://cdn-uicons.flaticon.com/2.4.2/uicons-bold-straight/css/uicons-bold-straight.css");
+@import url("https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css");
+body {
+  margin: 50px 0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #1e1e1e;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+i {
+  display: flex;
+}
+.wrapper {
+  width: 1236px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
